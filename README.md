@@ -7,27 +7,31 @@ integrações, automações, sistemas sob encomenda e agentes de IA.
 
 ## 🛠️ Stack
 
-- **Front-end:** TypeScript · React · Next.js · Vite · Tailwind CSS
-- **Back-end e dados:** Node.js · Express · Supabase (Postgres, Auth, Storage)
-- **Deploy:** Vercel · Netlify
-- **CRM e integrações:** Bitrix24 · Kommo · APIs REST · webhooks
-- **IA:** agentes de IA · Gemini API · Claude
+- **Front-end:** TypeScript · React · Next.js · Angular · Vite · Tailwind CSS
+- **Back-end e dados:** Node.js · Fastify · Express · Supabase (Postgres, Auth, Storage) · Prisma · Redis
+- **Deploy:** Vercel · Netlify · Docker
+- **CRM e integrações:** Bitrix24 · Kommo · APIs REST · webhooks · filas
+- **IA:** agentes de IA · Gemini API · Claude · OpenAI
 
-## 🚀 Projetos em destaque
+## 📦 Código aberto
 
-| Projeto | O que é | Stack |
-|---|---|---|
-| [EasyDash24](https://github.com/SamuelPedraGoncalves/easydash24) | Dashboard de indicadores para Bitrix24 | Next.js · Supabase · Tailwind · Vitest |
-| [Gerenciador ILM](https://github.com/SamuelPedraGoncalves/gerenciador) | Gestão educacional e de clínica social: alunos, funcionários, cursos, turmas e acompanhamento psicanalítico | React · Supabase |
-| [Gestão Financeira Pro](https://github.com/SamuelPedraGoncalves/missao) | Controle de entradas e despesas, com dashboards, relatórios e gestão de usuários | TypeScript · Tailwind |
-| [Lista de Compras Inteligente](https://github.com/SamuelPedraGoncalves/lista-de-compras) | Lê o preço das etiquetas com IA e calcula o total da compra em tempo real | React · Express · Gemini |
-| [Gerador de Assinatura de E-mail](https://github.com/SamuelPedraGoncalves/Gerador-de-assinatura-de-e-mail) | Gera assinaturas de e-mail em HTML prontas para colar | HTML · CSS · JavaScript |
+**[Bitrix24 Scripts](https://github.com/SamuelPedraGoncalves/bitrix24-scripts)**: scripts Node.js para a API
+REST do Bitrix24. Listam campos e opções de listas e atualizam negócios em lote, com simulação, novas
+tentativas automáticas e relatório.
 
-### Produtos em desenvolvimento (código privado)
+## 🚀 Produtos
 
-- **OneCRM**: CRM SaaS configurável por cliente (funis, campos, automações, permissões), com Contact Center
+O código destes produtos é privado. Demonstrações sob pedido.
+
+- **NFS-e Corretoras:** SaaS que automatiza a emissão de NFS-e de comissões para corretoras de seguros. A IA
+  lê o extrato da seguradora, o sistema valida, a equipe aprova e a nota é emitida e enviada à seguradora.
+- **Integrador Teleport × Bitrix24:** recebe os eventos do Teleport (cálculos, propostas, emissões) e atualiza
+  o CRM automaticamente. Atende várias corretoras, com fila, novas tentativas e dados criptografados.
+- **EasyDash24:** dashboards para Bitrix24 criados em linguagem natural. Você descreve o gráfico e a IA o
+  monta com os dados reais do CRM.
+- **OneCRM:** CRM SaaS configurável por cliente (funis, campos, automações, permissões), com Contact Center
   (e-mail, chat do site, Instagram, WhatsApp e telefonia). Em piloto.
-- **[Anima](https://anima-sepia.vercel.app)**: gestão e prontuário clínico para psicólogos e psicanalistas,
+- **[Anima](https://anima-sepia.vercel.app):** gestão e prontuário clínico para psicólogos e psicanalistas,
   com agenda, honorários, documentos e um secretário de IA opcional.
 
 ## 📫 Contato
